@@ -2,15 +2,9 @@
 ### ✅ 프로젝트 개요
 ###### 사용자가 업로드한 Markdown 파일을 바탕으로 퀴즈를 자동 생성하는 웹서비스입니다. 사용자가 학습한 내용을 퀴즈 형태로 변환하여, 일정 기간 후 퀴즈를 제공하고 사용자가 이를 풀 수 있는 환경을 제공합니다. 생성된 퀴즈는 AI를 활용하여 Markdown 문서의 핵심 내용을 질문 형식으로 전환합니다.
 ### ✅ ERD
+👉 https://github.com/Han00903/StudyBoost/wiki/ERD
 ![image](https://github.com/user-attachments/assets/36baffa2-570d-4ac6-b43b-bea25009d9d4)
-###### User Table: 시스템에 등록된 사용자의 정보를 저장
-###### Quiz Table: 생성된 퀴즈에 대한 정보를 저장
-###### QuizResult Table: 사용자가 푼 퀴즈의 결과를 저장
-###### MarkdownFile Table: 사용자에게 업로드된 마크다운(Markdown) 파일을 저장
-###### Question Table: 퀴즈 내의 각 질문을 저장
-###### Answer Table: 사용자가 푼 퀴즈의 답안을 저장
-###### QuizSchedule Table: 주기적으로 사용자에게 제공할 퀴즈 정보를 저장
-###### AIQuestion Table: AI가 생성한 질문을 저장(Markdown 파일에서 자동으로 생성된 질문들이 여기에 저장)
+
 
 ### ✅ 주요 기능
 ###### 1. 사용자 기능
